@@ -8,17 +8,30 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="gallery_box">
-        <ul class="gallery_list">
-            <li class="gallery_item"><img src="https://plus.unsplash.com/premium_photo-1679392532113-bee46deab9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80" alt=""></li>
-            <li class="gallery_item"><img src="https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80" alt=""></li>
-            <li class="gallery_item"><img src="https://images.unsplash.com/photo-1520004434532-668416a08753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3000&q=80" alt=""></li>
-            <li class="gallery_item"><img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80" alt=""></li>
-            <li class="gallery_item"><img src="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80" alt=""></li>
-        </ul>
+    <div class="slider">
+        <button class="btn_back">
+            <img src="./img/pngegg.png" alt="화살표이미지">
+        </button>
+        <div id="gallery_box">
+            <ul class="gallery_list">
+                <li class="gallery_item"><img src="https://plus.unsplash.com/premium_photo-1679392532113-bee46deab9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80" alt=""></li>
+                <li class="gallery_item"><img src="https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80" alt=""></li>
+                <li class="gallery_item"><img src="https://images.unsplash.com/photo-1520004434532-668416a08753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3000&q=80" alt=""></li>
+                <li class="gallery_item"><img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80" alt=""></li>
+                <li class="gallery_item"><img src="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80" alt=""></li>
+            </ul>
+        </div>
+        <button class="btn_next">
+            <img src="./img/pngegg.png" alt="화살표이미지">
+        </button>
     </div>
-    <button class="btn_back">이전</button>
-    <button class="btn_next">다음</button>
+    <ul class="pages">
+        <li class="item1"><button class="active"></button></li>
+        <li class="item2"><button></button></li>
+        <li class="item3"><button></button></li>
+        <li class="item4"><button></button></li>
+        <li class="item5"><button></button></li>
+    </ul>
     <script src="./js/jQuery-3.7.0.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
